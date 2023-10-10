@@ -1,0 +1,1 @@
+This file can be deleted, just here for the images folder to show up in git
