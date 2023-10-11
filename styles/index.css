@@ -1,1 +1,12 @@
 /* This File, unlike the other ones, can be renamed if you want */
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  .header-div{
+    background-color: gray;
+  }
