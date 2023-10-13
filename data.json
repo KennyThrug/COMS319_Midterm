@@ -2,6 +2,7 @@
     "posts": [
         {
             "title": "",
+            "author": "",
             "image": "",
             "date": "",
             "date_published": "",
@@ -11,7 +12,36 @@
             "genres": [
 
             ],
-            "text": ""
+            "text": "lll"
+        },
+        {
+            "title": "Fake Book Name",
+            "author": "Kenny Epstein",
+            "image": "https://media.istockphoto.com/id/949118068/photo/books.jpg?s=2048x2048&w=is&k=20&c=84QzSRpNc21wzXu5K7t7z0lSUQ93qIFZOmS84JKdvnI=",
+            "date": "Oct 13 2023",
+            "date_published": "1999",
+            "tags": [
+                "Sad"
+            ],
+            "genres": [
+                "Science Fiction",
+                "Fiction"
+            ],
+            "text": "I really love this book. It was really good. I am here to fill space. Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem Lorem Ipsem "
+        },
+        {
+            "title": "Beowulf",
+            "author": "Cotton Vitellius",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg/800px-Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg",
+            "date" : "Oct 13 2023",
+            "date_published": "1815",
+            "tags":[
+
+            ],
+            "genres":[
+
+            ],
+            "text": "This Book was quite boring for most of it. Beowulf isn't a particularly interesting protagonist, and the antagonists weren't too interesting. The version I read back in high school was written in Old English, which was probably the most interesting thing about the book, as it showed the evolution of language. No one is actually gonna read a review of Beowulf, so I'm just gonna start Tangenting about stuff. Theres a big part of me that actually wants to get a minor in Linguistics because of the coolness of the evolution of language. I took Latin back in high school, and actually ended up at pretty much the top of my class, and learned quite a lot. Although useless to speak, Latin is a really cool language in a historical context, as it is the root language for many languages, and although English is not a Romantic Language (it is instead Germanic, all you have to do is read Beowulf to discover that, its practically in German) Its still quite interesting to see many of the influences of latin in the english language, many of which can be attributed to the Church<br><br> There are three major parts to this story. The first is A battle against Grendel. Grendel is a decendant of Cain, and thus is an Ogre like creature. This is probably the most boring fight, as it is a bit of a Curbstomp in favor of Beowulf. He literraly tears this man apart with his arms. Ouch.<br><br>The Second battle is against Grendels Mother. Something interesting about this story is the existence of a named weapon, Hrunting, which is the sword he uses to slay the Mother. Its cool seeing something that would be a common mainstay in media in the 21st century so long ago, the idea of a powerful, legendary, named sword. I believe Excalaber came before Beowulf, however its still cool. I really don't have much to say tbh.<br><br>The Final battle is against the Dragon. As an advid DnD fan, I love dragons, and so should you. Unfortunetly the dragon and beowulf kill each other. Wiglaf witnesses his death, but honestly neither character was interesting enough to care.<br><br>I really don't know why when I was like \"I need to make a review of something to take up space on the page\" I decided on Beowulf? Like wtf dude, I read this in high school, its more than half a decade at this point since I read it, and I didn't even like it??? Whatever I guess this is going on the page since I just spent 15 minutes writing this."
         }
     ]
 }

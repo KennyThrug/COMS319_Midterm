@@ -10,3 +10,27 @@
   .header-div{
     background-color: gray;
   }
+  .post-text-body p{
+    color:black;
+  }
+  /*Class that contains the text "review" of the media*/
+  .post-text-body{
+    padding: 2%;
+  }
+  /*Contains a whole post, including text, images, and header*/
+  .post-full-body{
+    border-style: solid;
+    border-radius: 25px;
+    margin-bottom: 5px;
+  }
+  /*Area that contains all the metadata (Title, date published, etc)*/
+  .PostHeader{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 25px;
+    margin-bottom: 10px;
+  }
+  /*The Title of the Media*/
+  .PostHeader p strong{
+    font-size: large;
+  }
