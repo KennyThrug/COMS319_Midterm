@@ -39,6 +39,8 @@ function createAllPosts(json_data){
     }
 }
 //This is a function soley in charge of hiding and reshowing the search bar
+/*
+This function is no longer used with the new navbar (may be re-implemented later)
 function toggleAdvancedSearch(){
     let toggleButton = document.getElementById(`toggleAdvancedSearch`);
     var card = document.getElementById(`AdvancedSearch`);
@@ -46,11 +48,11 @@ function toggleAdvancedSearch(){
     toggleButton.addEventListener('click',function () {
         collapsableCard.toggle();
     });
-}
+}*/
+
 let json;
 //Does the following when the page has fully loaded... Added for extra safety to avoid data races, which I have come across in the past
 window.onload = function() {
-    toggleAdvancedSearch();
     json = fetch("/data.json")
     .then(response => response.json())
     .then(posts => createAllPosts(posts));
