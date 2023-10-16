@@ -1,17 +1,26 @@
 .ProductDiv{
     width: 50%;
     border: solid;
-    margin-left: 10%;
+    margin-left: 35%;
     margin-top: 2%;
 }
 .productDisc{
     border-top: solid;
     border-color: lightgray;
     color: gray;
+    padding: 2%
 }
 #Cart{
     border: solid;
+    position: relative;
+    background-color: lightgrey;
 }
 .productInCart{
     border: dashed;
+}
+#total{
+    position: fixed;
+    bottom: 0;
+    border-top: solid;
+    width: 100%;
 }
