@@ -1,0 +1,14 @@
+.ProductDiv{
+    width: 50%;
+    border: solid;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.productDisc{
+    border-top: solid;
+    border-color: lightgray;
+    color: gray;
+}
+#Cart{
+    border: solid;
+}

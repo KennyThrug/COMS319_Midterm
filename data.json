@@ -43,5 +43,42 @@
             ],
             "text": "This Book was quite boring for most of it. Beowulf isn't a particularly interesting protagonist, and the antagonists weren't too interesting. The version I read back in high school was written in Old English, which was probably the most interesting thing about the book, as it showed the evolution of language. No one is actually gonna read a review of Beowulf, so I'm just gonna start Tangenting about stuff. Theres a big part of me that actually wants to get a minor in Linguistics because of the coolness of the evolution of language. I took Latin back in high school, and actually ended up at pretty much the top of my class, and learned quite a lot. Although useless to speak, Latin is a really cool language in a historical context, as it is the root language for many languages, and although English is not a Romantic Language (it is instead Germanic, all you have to do is read Beowulf to discover that, its practically in German) Its still quite interesting to see many of the influences of latin in the english language, many of which can be attributed to the Church<br><br> There are three major parts to this story. The first is A battle against Grendel. Grendel is a decendant of Cain, and thus is an Ogre like creature. This is probably the most boring fight, as it is a bit of a Curbstomp in favor of Beowulf. He literraly tears this man apart with his arms. Ouch.<br><br>The Second battle is against Grendels Mother. Something interesting about this story is the existence of a named weapon, Hrunting, which is the sword he uses to slay the Mother. Its cool seeing something that would be a common mainstay in media in the 21st century so long ago, the idea of a powerful, legendary, named sword. I believe Excalaber came before Beowulf, however its still cool. I really don't have much to say tbh.<br><br>The Final battle is against the Dragon. As an advid DnD fan, I love dragons, and so should you. Unfortunetly the dragon and beowulf kill each other. Wiglaf witnesses his death, but honestly neither character was interesting enough to care.<br><br>I really don't know why when I was like \"I need to make a review of something to take up space on the page\" I decided on Beowulf? Like wtf dude, I read this in high school, its more than half a decade at this point since I read it, and I didn't even like it??? Whatever I guess this is going on the page since I just spent 15 minutes writing this."
         }
+    ],
+    "tshirts": [
+        {
+            "name": "Two People",
+            "image": "images/shirts/ShirtTwoPeople.png",
+            "price": 25,
+            "productID":"100101",
+            "description": "These are two people from a book I reviewed??? Its up to you to decide who they are, but If you guess wrong my feelings will be hurt"
+        },
+        {
+            "name": "Cool Dragon",
+            "image": "images/shirts/dragonShirt.png",
+            "price": 30,
+            "productID":"100110",
+            "description": "This is a cool shirt for cool people who like cool dragons. Who doesn't like dragons? Who doesn't like shirts? Therefore Dragon+Shirt = Cool"
+        },
+        {
+            "name": "133T meme",
+            "image": "images/shirts/memeShirt.png",
+            "price": 25,
+            "productID":"100111",
+            "description": "This meme is still relevant, I swear. Definently not thrown together last second in the library. Please Buy so I don't experience a loss in money"
+        },
+        {
+            "name": "Triangle Shirt",
+            "image": "images/shirts/triangleShirt.png",
+            "price": 40,
+            "productID":"101000",
+            "description": "Who said there couldn't be color in these shirts? I just like these triangles, any relation to any symbol or trademarked object is purely coincidental. Preferably worn with Khakhi shorts and sandles."
+        },
+        {
+            "name": "The Sky",
+            "image": "images/shirts/childDrawing.png",
+            "price": 60,
+            "productID": "101001",
+            "description": "As it turns out, you can just enter any preschool and you'll find tons of people with better artistic skills than me who are much better at making T-shirt art than I can. Commissioned from an unknown artist for $0"
+        }
     ]
 }
