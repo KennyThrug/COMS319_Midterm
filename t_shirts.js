@@ -83,6 +83,7 @@ function reloadCart(alldata){
     console.log(cart);
     let cartParent = document.getElementById("Cart");
     cartParent.innerHTML = "";
+    let totalNumber = 0;
     for(let i = 0; i < cart.length;i++){
         let data;
         //Sets data to the correct product, using the productID
@@ -96,6 +97,7 @@ function reloadCart(alldata){
         if(data == null){
             return;
         }
+        totalNumber += data.price;
         cartChild = document.createElement("div");
         cartChild.className = "productInCart";
         cartChild.innerHTML = 
@@ -109,6 +111,20 @@ function reloadCart(alldata){
             </div>`
         cartParent.appendChild(cartChild);
     }
+    let total = document.createElement("div");
+    total.id = "total";
+    total.style = "width=100%"
+    total.innerHTML = `
+        <h3>Total</h3>
+        <p>$
+            ${totalNumber}
+        </p>
+        <button class="btn btn-primary" onclick="buyProduct()">Purchase</button>`;
+    cartParent.appendChild(total);
+}
+
+function buyProduct(){
+    window.alert("Congrats on Buying this product. Unfortunately, just like the money you just spent, the products are fake.")
 }
 
 let json;
