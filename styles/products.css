@@ -12,3 +12,6 @@
 #Cart{
     border: solid;
 }
+.productInCart{
+    border: dashed;
+}
