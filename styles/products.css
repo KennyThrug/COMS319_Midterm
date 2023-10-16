@@ -12,15 +12,21 @@
 }
 #Cart{
     border: solid;
-    position: relative;
     background-color: lightgrey;
 }
 .productInCart{
     border: dashed;
+    margin-top: 2%;
 }
 #total{
     position: fixed;
     bottom: 0;
     border-top: solid;
     width: 100%;
+    margin-bottom: 1%;
+    background-color: lightgray;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
