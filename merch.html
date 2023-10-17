@@ -13,7 +13,7 @@
         window.onload = function(){
             json = fetch("data.json")
             .then(response => response.json())
-            .then(posts => createAllPosts(posts,true));
+            .then(posts => createAllPosts(posts,false));
         }
     </script>
     <title>Kenny/Austin Blog</title>

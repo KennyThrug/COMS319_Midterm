@@ -38,10 +38,16 @@ function createPost(index,data){
     postParent.appendChild(curPost)
 }
 
-function createAllPosts(json_data){
-    fullPosts = json_data;
-    for(let i = 0; i < json_data.tshirts.length;i++){
-       createPost(i % ELEMENTS_PER_ROW,json_data.tshirts[i]);
+//is_shirts variable is true if on the shirts page, false if on other page
+function createAllPosts(json_data,is_shirts){
+    if(is_shirts){
+        fullPosts = json_data.tshirts;
+    }
+    else{
+        fullPosts = json_data.otherMerch;
+    }
+    for(let i = 0; i < fullPosts.length;i++){
+       createPost(i % ELEMENTS_PER_ROW,fullPosts[i]);
     }
 }
 function addOrRemoveToCart(element,id){
@@ -62,7 +68,7 @@ function addOrRemoveToCart(element,id){
         });
     }
     //Reloads display
-    reloadCart(fullPosts.tshirts);
+    reloadCart(fullPosts);
 }
 //Just takes an ID
 function removeFromCart(id){
@@ -129,8 +135,3 @@ function buyProduct(){
 
 let json;
 let fullPosts;
-window.onload = function() {
-    json = fetch("/data.json")
-    .then(response => response.json())
-    .then(posts => createAllPosts(posts));
-}

@@ -80,5 +80,56 @@
             "productID": "101001",
             "description": "As it turns out, you can just enter any preschool and you'll find tons of children with better artistic skills than me who are much better at making T-shirt art than I can. Commissioned from an unknown artist for $0"
         }
+    ],
+    "otherMerch": [
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        },
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        },
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        },
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        },
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        },
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        },
+        {
+            "name": "Placeholder",
+            "image": "images/merch/placeholder.png",
+            "price": 0,
+            "productID": "1010011",
+            "description": "Placeholder Product for testing before I make the actual products"
+        }
     ]
 }
