@@ -22,6 +22,7 @@
     border-style: solid;
     border-radius: 25px;
     margin-bottom: 5px;
+    background-color: rgb(185, 165, 138);
   }
   /*Area that contains all the metadata (Title, date published, etc)*/
   .PostHeader{
@@ -33,4 +34,11 @@
   /*The Title of the Media*/
   .PostHeader p strong{
     font-size: large;
+  }
+  #Post-Contents{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  body{
+    background-color: aliceblue;
   }
