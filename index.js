@@ -60,9 +60,3 @@ function toggleAdvancedSearch(){
 }*/
 
 let json;
-//Does the following when the page has fully loaded... Added for extra safety to avoid data races, which I have come across in the past
-window.onload = function() {
-    json = fetch("/data.json")
-    .then(response => response.json())
-    .then(posts => createAllPosts(posts));
-}
