@@ -83,53 +83,32 @@
     ],
     "otherMerch": [
         {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
+            "name": "CD",
+            "image": "images/merch/CD.png",
+            "price": 15,
             "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
+            "description": "Compact Disc that contains music and nothing else"
         },
         {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
-            "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
+            "name": "Mug",
+            "image": "images/merch/Mug.png",
+            "price": 10,
+            "productID": "1010100",
+            "description": "It's a Mug for when you just want to drink out of a cup, but you also like handles. Muggy"
         },
         {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
-            "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
+            "name": "D17",
+            "image": "images/merch/D17.png",
+            "price": 17,
+            "productID": "1010101",
+            "description": "I mean... Someones gotta have a use for this?"
         },
         {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
-            "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
-        },
-        {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
-            "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
-        },
-        {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
-            "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
-        },
-        {
-            "name": "Placeholder",
-            "image": "images/merch/placeholder.png",
-            "price": 0,
-            "productID": "1010011",
-            "description": "Placeholder Product for testing before I make the actual products"
+            "name": "DIY bookmark",
+            "image": "images/merch/Paper.png",
+            "price": 30,
+            "productID": "1010111",
+            "description": "DIY bookmark, just take the provided materials, cut it to desired size, and then draw whatever you want on it. Chairs and Table not included"
         }
     ]
 }

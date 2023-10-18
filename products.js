@@ -130,7 +130,13 @@ function reloadCart(alldata){
 }
 
 function buyProduct(){
-    window.alert("Congrats on Buying this product. Unfortunately, just like the money you just spent, the products are fake.")
+    window.alert("Congrats on Buying this product. Unfortunately, just like the money you just spent, the products are fake.");
+    console.log(cart);
+    while(cart.length != 0){
+        removeFromCart(cart[0].ID);
+    }
+    reloadCart();
+    console.log(cart);
 }
 
 let json;
