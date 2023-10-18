@@ -1,0 +1,33 @@
+.ProductDiv{
+    width: 50%;
+    border: solid;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.productDisc{
+    border-top: solid;
+    border-color: lightgray;
+    color: gray;
+    padding: 2%
+}
+#Cart{
+    border: solid;
+    background-color: lightgrey;
+}
+.productInCart{
+    border: dashed;
+    margin-top: 2%;
+}
+#total{
+    position: fixed;
+    bottom: 0;
+    border-top: solid;
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: lightgray;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
