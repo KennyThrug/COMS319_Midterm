@@ -2,9 +2,16 @@
 function createPost(index, data){
     let parentOfPost = document.getElementById("Post-Contents");
     let post = document.createElement("div");
+    let genres = "Genres: ";
+    for(let i = 0; i < data.genres.length;i++){
+        genres += data.genres[i];
+        if(i < data.genres.length-1){
+            genres += ", "
+        }
+    }
     post.className = "row post-full-body";
     post.innerHTML = `
-    <header class="PostHeader row">
+    <header class="PostHeader row" style="margin-left: 0.05%;">
         <div class="col-md-4">
             <p>
                 <strong>
@@ -14,7 +21,9 @@ function createPost(index, data){
             </p>
         </div>
         <div class="col-md-6 tags">
-            Heres where Tags will be
+            <p>
+                ${genres}
+            </p>
         </div>
         <div class="col-md-2">
             <p>
@@ -51,9 +60,3 @@ function toggleAdvancedSearch(){
 }*/
 
 let json;
-//Does the following when the page has fully loaded... Added for extra safety to avoid data races, which I have come across in the past
-window.onload = function() {
-    json = fetch("/data.json")
-    .then(response => response.json())
-    .then(posts => createAllPosts(posts));
-}
