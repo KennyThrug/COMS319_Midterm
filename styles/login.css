@@ -1,0 +1,20 @@
+.login-box{
+    /* Centers the Div */
+    width: 450px;
+    height: 400px;
+    border-style: solid;
+    border-color: black;
+    left: 50%;
+    top: 50%;
+    /* margin-left and top are half the width and height respectively, multiplied by -1*/
+    margin-left: -225px;
+    margin-top: -220px;
+    position: absolute;
+}
+.logins{
+    display: inline-block;
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
