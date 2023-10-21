@@ -24,7 +24,7 @@ function login_from_page()
 {
     let username = document.getElementById("usernamebox").value;
     let password = document.getElementById("passwordbox").value;
-    login(username, password, "/index.html");
+    login(username, password, "./index.html");
 }
 
 function set_inner_html(id, ihtml)
