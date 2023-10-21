@@ -17,7 +17,7 @@ function getFirstUser()
 function logout()
 {
     document.cookie = "authenticated=false; path=/;"
-    setTimeout(() => {window.location.href = "/index.html";}, 1500);
+    setTimeout(() => {window.location.href = "./index.html";}, 1500);
 }
 
 function login_from_page()
